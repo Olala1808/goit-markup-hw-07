@@ -1,0 +1,25 @@
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-family: inherit;
+    display: inline-block;
+    align-items: center;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    transition: color 250ms ease;
+    border: none;
+
+    &:hover,
+    &:focus{
+        color: var(--white-color);
+         background-color: #188CE8;
+        }
+    }

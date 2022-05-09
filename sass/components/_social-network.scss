@@ -1,0 +1,28 @@
+.social-network{
+    display: flex;
+    padding: 16px 32px 0px 32px;}
+
+.social-network-item:not(:last-child){margin-right: 10px;}
+
+.link-social-network{ display: block;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    color:#AFB1B8;
+    border-radius: 50%;
+    transition: background-color 250ms ease, color 250ms ease;
+
+    &:hover,
+    &:focus{
+        color: #ffffff;
+        background-color: var(--accent-color);
+    }
+}
+
+.icon-social-network{
+    fill: currentColor;
+    &:hover,
+    &:focus{
+        fill: currentColor;
+    }
+}
